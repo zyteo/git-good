@@ -28,7 +28,7 @@ Might be handy: git status/git log/git remote –v\
 git fetch and git pull are also important for getting the latest remote code\
 NOTE git switch -c newbranchname & git checkout -b newbranchname are SIMILAR (not exactly the same. refer to [link](https://stackoverflow.com/questions/57265785/whats-the-difference-between-git-switch-and-git-checkout-branch))
 
-When doing a git clone, and want to make a new branch and continue from there:\
+When doing a git clone, and wanting to make a new branch and continuing from there:\
 git checkout -b branchname\
 git add whatever files\
 git commit -m "msg"\

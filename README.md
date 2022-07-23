@@ -31,7 +31,7 @@ NOTE git switch -c newbranchname & git checkout -b newbranchname are SIMILAR (no
 Git clone:\
 git clone https://github.com/accountname/reponame.git \
 cd reponame\
-git branch -a (too see all branches)
+git branch -a (to see all branches)
 
 When doing a git clone, and want to make a new branch and continue from there:\
 git checkout -b branchname OR git switch -c newbranchname\

@@ -1,5 +1,5 @@
 # Get good at git
-##### Just want to get better at git so let's git good! Just some commmands here and there for my own reference.
+##### Just wanted to get better at git so let's git good! Just some commmands here and there for my own reference.
 
 For a new repo:\
 git init\

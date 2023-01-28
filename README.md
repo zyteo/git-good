@@ -16,7 +16,8 @@ git push -u github(NOT origin) main\
 git remote –v should now show the different accounts
 
 Just some notes:\
-Git add . or add –a\
+git add . or add –a\
+git add -u to exclude untracked changes. refer [link](https://stackoverflow.com/questions/572549/difference-between-git-add-a-and-git-add)\
 git reset (to undo git add)\
 Git commit –m “message” / git commit (for subject+details)\
 Git push\

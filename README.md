@@ -39,3 +39,27 @@ git checkout -b branchname OR git switch -c newbranchname\
 git add whatever files\
 git commit -m "msg"\
 git push --set-upstream origin branchname
+
+##### Other references
+React
+npx create-react-app appname
+cd appname
+npm install react-router-dom react-router
+npm start
+
+npm init vite@latest nameofapp -- --template react
+npm install
+npm run dev
+
+Django
+Py manage.py makemigrations/migrate/check
+Py manage.py startapp xxx
+
+Ubuntu cmd:
+sudo apt-get update && sudo apt-get upgrade (gets updates + upgrades)
+sudo apt-get install –y nameOfPgrm (install pgrm, default yes)
+sudo apt-get purge nameOfProgram
+sudo apt-get autoremove
+
+
+

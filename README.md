@@ -40,6 +40,13 @@ git add whatever files\
 git commit -m "msg"\
 git push --set-upstream origin branchname
 
+Alternatively, doing a git clone, and want to continue from existing branch:\
+git checkout existingbranchname\
+edit files\
+git add files\
+git commit -m "msg"\
+git push
+
 ##### Other references
 React\
 npx create-react-app appname\

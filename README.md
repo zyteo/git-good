@@ -20,6 +20,7 @@ git add . or add –a\
 git add -u to exclude untracked changes. refer [link](https://stackoverflow.com/questions/572549/difference-between-git-add-a-and-git-add)\
 git reset (to undo git add)\
 Git commit –m “message” / git commit (for subject+details)\
+git commit --amend -m "New message" (to modify message that has already been pushed)\
 Git push\
 Git checkout –b newbranchname (create new branch and switch to it)\
 Git branch –d deletebranchname\

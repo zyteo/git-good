@@ -49,6 +49,10 @@ git add files\
 git commit -m "msg"\
 git push
 
+deleting a local or remote branch\
+git branch -d localBranchName\
+git push origin --delete remoteBranchName
+
 ##### Other references
 React\
 npx create-react-app appname\

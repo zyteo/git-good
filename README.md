@@ -28,6 +28,15 @@ Git diff filename (check difference)\
 Git add –p filename (add specific part of file)\
 Might be handy: git status/git log/git remote –v\
 git fetch and git pull are also important for getting the latest remote code\
+git pull is a git fetch + git merge. Use with caution.\
+to avoid using git pull:\
+git fetch\
+git merge branchToMerge\
+*make changes to conflicts\
+
+once changes made, as per usual\
+git add/commit/push\
+git merge --abort to stop process\
 NOTE git switch -c newbranchname & git checkout -b newbranchname are SIMILAR (not exactly the same. refer to [link](https://stackoverflow.com/questions/57265785/whats-the-difference-between-git-switch-and-git-checkout-branch))\
 git stash (to 'save' work in progress changes, but not wanting to push to repo. refer to [link](https://git-scm.com/docs/git-stash))
 

@@ -32,7 +32,7 @@ git pull is a git fetch + git merge. Use with caution.\
 to avoid using git pull:\
 git fetch\
 git merge branchToMerge\
-*make changes to conflicts\
+*make changes to conflicts
 
 once changes made, as per usual\
 git add/commit/push\

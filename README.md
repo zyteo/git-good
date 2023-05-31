@@ -83,5 +83,18 @@ sudo apt-get install –y nameOfPgrm (install pgrm, default yes)\
 sudo apt-get purge nameOfProgram\
 sudo apt-get autoremove
 
+VIM\
+hjkl cursor\
+:q! exit\
+x delete\
+i insert then ESC\
+A to append text\
+:wq save file and exit\
+dw delete word\
+d$ delete to end of line\
+2w move forward \
+3e move forward\
+0 move start line
+
 
 

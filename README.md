@@ -87,14 +87,40 @@ VIM\
 hjkl cursor\
 :q! exit\
 x delete\
-i insert then ESC\
-A to append text\
+i insert then ESC (normal mode)\
+A (remember to shift a) to append text\
 :wq save file and exit\
 dw delete word\
 d$ delete to end of line\
-2w move forward \
-3e move forward\
-0 move start line
+2w move forward 2 words\
+3e move forward 3 words, to end of 3rd work\
+0 move start line\
+$ end of line\
+:0 beginning of file\
+:$ end of file\
+d3w delete 3 words\
+dd delete 1 line\
+2dd delete 2 lines\
+u undo last action\
+2u undo last 2 actions\
+U undo changes to one line\
+Ctrl+r redo commands\
+p put previously deleted text below the cursor\
+rx replace character at cursor with x\
+ce change until end of the word. ce + text + ESC\
+c$ change until end of line\
+:%s/the/THE/g replaces all the with THE\
+Ctrl G shows location in file + file status\
+Ctrl G G moves to bottom of file\
+Ctrl G gg moves to start of file\
+Ctrl G 100G moves to 100th line\
+/ word ENTER search for word clockwise\
+? word ENTER search for word anti clockwise\
+n next word\
+N next word in backwards direction\
+Ctrl O go back where you came from\
+Ctrl I go forward where you came from\
+% to find a matching ), ], }
 
 
 

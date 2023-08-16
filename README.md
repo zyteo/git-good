@@ -62,6 +62,12 @@ deleting a local or remote branch\
 git branch -d localBranchName\
 git push origin --delete remoteBranchName
 
+want to add everything except a particular file\
+git add .\
+git reset link/to/the/file.extension\
+git commit -m "message as per usual"\
+git push
+
 ##### Other references
 React\
 npx create-react-app appname\

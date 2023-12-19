@@ -21,6 +21,7 @@ git add -u to exclude untracked changes. refer [link](https://stackoverflow.com/
 git reset (to undo git add)\
 Git commit –m “message” / git commit (for subject+details)\
 git commit --amend -m "New message" (to modify message that has already been pushed)\
+git commit --amend also works\
 Git push\
 Git checkout –b newbranchname (create new branch and switch to it)\
 Git branch –d deletebranchname\
@@ -69,6 +70,14 @@ git commit -m "message as per usual"\
 git push
 
 ##### Other references
+
+Obtain cursor position
+```
+Add-Type -AssemblyName System.Windows.Forms
+$X = [System.Windows.Forms.Cursor]::Position.X
+$Y = [System.Windows.Forms.Cursor]::Position.Y
+Write-Output "X: $X | Y: $Y"
+```
 React\
 npx create-react-app appname\
 cd appname\

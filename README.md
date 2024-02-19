@@ -1,6 +1,10 @@
 # Get good at git
 ##### Just want to get better at git so let's git good! Just some commmands here and there for my own reference.
 
+Set git username and email for all repos\
+git config --global user.name "username"\
+git config --global user.email "email@mail.com"
+
 For a new repo:\
 git init\
 git add README.md\

@@ -82,6 +82,15 @@ $X = [System.Windows.Forms.Cursor]::Position.X
 $Y = [System.Windows.Forms.Cursor]::Position.Y
 Write-Output "X: $X | Y: $Y"
 ```
+Robo copy files excluding certain dirs
+```
+$source = "D:\Filepath"
+$destination = "E:\Filepath"
+$excludeDirs = "node_modules"
+
+# Robocopy command
+robocopy $source $destination /E /XD $excludeDirs
+```
 React\
 npx create-react-app appname\
 cd appname\
